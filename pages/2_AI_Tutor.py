@@ -14,23 +14,20 @@ sumc = load_csv("data/warehouse/Tutor_Cohort_Summary.csv")
 for df in [sess, util, wk, sumc]: phase_order(df)
 
 # Filters
-col1, col2, col3 = st.columns(3)
+# Filters (remove Phase here)
+col1, col2 = st.columns(2)
 year = col1.multiselect("Year", sorted(cm["Year"].unique()))
 program = col2.multiselect("Program", sorted(cm["Program"].unique()))
-phase = col3.multiselect("Phase", ["Pre-AI","Yoodli","JPT"], default=["Pre-AI","Yoodli","JPT"])
 
 def apply_filters(df):
     if "Cohort_ID" in df.columns:
         df = df.merge(cm[["Cohort_ID","Year","Program"]], on="Cohort_ID", how="left")
-    if year: df = df[df["Year"].isin(year)]
-    if program: df = df[df["Program"].isin(program)]
-    if phase and "Phase" in df.columns: df = df[df["Phase"].isin(phase)]
+    if year:
+        df = df[df["Year"].isin(year)]
+    if program:
+        df = df[df["Program"].isin(program)]
     return df
 
-sess_f = apply_filters(sess)
-util_f = apply_filters(util)
-wk_f = apply_filters(wk)
-sumc_f = apply_filters(sumc)
 
 # KPIs
 c1,c2,c3,c4 = st.columns(4)
