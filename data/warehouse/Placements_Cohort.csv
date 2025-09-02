@@ -1,0 +1,7 @@
+Cohort_ID,Phase,Eligible,Applied,Shortlisted,Offers,Placed,Avg_Package,Median_Package,Highest_Package,Tier1_Offers,Tier2_Offers,Startup_Offers,PSU_Offers,Tech_Role_Share_%,Finance_Role_Share_%,Consulting_Role_Share_%,Other_Role_Share_%,Avg_Conversion_Per_Visit_%,Avg_Openings_Per_Visit
+MBA_2023,Pre-AI,165,123,43,6,6,18.0,17.0,24.96,1,2,3,0,40.32,28.6,12.71,16.12,15.0,4.62
+MGB_2023,Pre-AI,130,97,33,9,9,18.0,17.0,26.49,1,4,1,3,40.56,21.4,19.52,12.84,17.02,6.0
+MBA_2024,Yoodli,169,135,56,9,9,20.5,19.5,26.61,2,4,0,3,40.37,15.02,11.38,15.64,27.94,4.57
+MGB_2024,Yoodli,125,100,42,11,11,20.5,19.5,28.34,2,4,4,1,43.11,25.44,24.33,15.24,24.58,4.75
+MBA_2025,JPT,169,143,71,16,16,23.5,22.5,31.13,5,7,4,0,31.33,19.63,18.89,8.53,38.66,5.29
+MGB_2025,JPT,130,110,55,13,13,23.5,22.5,30.77,4,5,2,2,54.12,29.18,22.73,12.08,43.97,4.29

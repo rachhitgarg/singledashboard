@@ -1,0 +1,7 @@
+Cohort_ID,Phase,PreMentor_Capstone_Grade_Avg,PostMentor_Capstone_Grade_Avg,Grade_A_Distribution_%_Pre,Grade_A_Distribution_%_Post,Higher_Degree_Attempts,Higher_Degree_Admissions,PostMentor_Exam_Avg,Tier1_Offers_Share_%,Avg_Package_in_Phase
+MBA_2023,Pre-AI,69.76,70.59,11.28,11.28,10,5,68.23,16.67,18.0
+MGB_2023,Pre-AI,62.48,62.29,10.72,10.72,11,5,61.56,11.11,18.0
+MBA_2024,Yoodli,69.58,74.22,15.51,18.51,8,6,63.98,22.22,20.5
+MGB_2024,Yoodli,71.05,75.18,14.68,17.68,17,7,65.35,18.18,20.5
+MBA_2025,JPT,68.21,75.62,20.61,27.61,13,8,72.33,31.25,23.5
+MGB_2025,JPT,71.71,79.7,16.96,23.96,16,11,69.31,30.77,23.5

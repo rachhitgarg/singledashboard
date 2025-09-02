@@ -1,0 +1,7 @@
+Cohort_ID,Phase,Active_Users_%,Units_With_Sessions_Count,Units_Adopted_%,Avg_Sessions_Per_Student,PreTutor_Exam_Avg,PostTutor_Exam_Avg,PreTutor_Assignment_Avg,PostTutor_Assignment_Avg,Pass_Percentage
+MBA_2023,Pre-AI,52.59,2,66.67,2.31,66.94,68.23,63.37,65.83,73.16
+MGB_2023,Pre-AI,50.14,3,100.0,2.23,61.45,61.56,68.62,70.21,76.11
+MBA_2024,Yoodli,58.18,3,100.0,2.62,60.84,63.98,69.98,74.21,78.0
+MGB_2024,Yoodli,60.5,3,100.0,2.82,63.71,65.35,68.18,72.48,85.69
+MBA_2025,JPT,74.9,3,100.0,3.36,67.22,72.33,64.23,68.92,84.51
+MGB_2025,JPT,70.01,3,100.0,3.21,63.8,69.31,68.97,75.14,88.73

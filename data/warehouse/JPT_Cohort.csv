@@ -1,0 +1,7 @@
+Cohort_ID,Phase,Total_JPT_Sessions,Avg_Sessions_Per_Student,Avg_AI_Confidence,Avg_AI_Communication,Avg_AI_Technical,PreJPT_Conv_Rate_Per_Opening_%,PostJPT_Conv_Rate_Per_Opening_%,Conversion_Boost_Per_Opening_%,Tier1_Offers_Before,Tier1_Offers_After,Avg_Package_Before,Avg_Package_After
+MBA_2023,Pre-AI,0,0.0,0.0,0.0,0.0,15.0,,,1,0,18.0,
+MGB_2023,Pre-AI,0,0.0,0.0,0.0,0.0,17.02,,,1,0,18.0,
+MBA_2024,Yoodli,503,2.79,66.83,52.62,56.17,15.0,27.94,12.94,1,2,18.0,20.5
+MGB_2024,Yoodli,361,2.58,59.26,64.84,59.72,17.02,24.58,7.56,1,2,18.0,20.5
+MBA_2025,JPT,400,2.22,67.74,71.87,71.49,27.94,38.66,10.72,2,5,20.5,23.5
+MGB_2025,JPT,665,4.75,71.01,68.31,73.3,24.58,43.97,19.39,2,4,20.5,23.5
