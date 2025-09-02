@@ -1,7 +1,5 @@
-
 import streamlit as st
 import pandas as pd
-import io, os, json
 
 st.header("Data Uploader (with Schema Validation)")
 
@@ -26,17 +24,17 @@ if file:
         expected = schemas[dataset]
         missing = [c for c in expected if c not in df.columns]
         extra = [c for c in df.columns if c not in expected]
+
         if missing:
             st.error(f"Missing columns: {missing}")
-        elif extra:
-            st.warning(f"Extra columns will be ignored: {extra}")
-            df = df[expected]
-            df.to_csv(f"data/warehouse/{dataset}.csv", index=False)
-            st.success("Uploaded with extra columns ignored. File saved.")
         else:
-            df.to_csv(f"data/warehouse/{dataset}.csv", index=False)
-            st.success("Uploaded and validated successfully.")
-        st.write("Preview:")
-        st.dataframe(df.head())
+            if extra:
+                st.warning(f"Extra columns will be ignored: {extra}")
+                df = df[expected]
+            out_path = f"data/warehouse/{dataset}.csv"
+            df.to_csv(out_path, index=False)
+            st.success(f"Uploaded and validated successfully. Saved to {out_path}")
+            st.write("Preview:")
+            st.dataframe(df.head())
     except Exception as e:
         st.error(f"Upload failed: {e}")
